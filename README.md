@@ -6,9 +6,9 @@
 
 
 <h3>源码</h3>
-system([@"defaults write ~/Library/Preferences/com.apple.Safari.plist LocalFileRestrictionsEnabled -bool FALSE" UTF8String]);
-system([@"defaults write ~/Library/Preferences/com.apple.Safari.plist WebKitAllowUniversalAccessFromFileURLs -bool TRUE" UTF8String]);
-system([@"defaults write ~/Library/Preferences/com.apple.Safari.plist WebKitAllowFileAccessFromFileURLs -bool TRUE" UTF8String]);
-system([@"defaults write ~/Library/Preferences/com.apple.Safari.plist com.apple.Safari.ContentPageGroupIdentifier.WebKit2JavaEnabledForLocalFiles -bool TRUE" UTF8String]);
-system([@"defaults write ~/Library/Preferences/com.apple.Safari.plist com.apple.Safari.ContentPageGroupIdentifier.WebKit2AllowFileAccessFromFileURLs -bool TRUE" UTF8String]);
+system([@"defaults write ~/Library/Preferences/com.apple.Safari.plist LocalFileRestrictionsEnabled -bool FALSE" UTF8String]);</br>
+system([@"defaults write ~/Library/Preferences/com.apple.Safari.plist WebKitAllowUniversalAccessFromFileURLs -bool TRUE" UTF8String]);</br>
+system([@"defaults write ~/Library/Preferences/com.apple.Safari.plist WebKitAllowFileAccessFromFileURLs -bool TRUE" UTF8String]);</br>
+system([@"defaults write ~/Library/Preferences/com.apple.Safari.plist com.apple.Safari.ContentPageGroupIdentifier.WebKit2JavaEnabledForLocalFiles -bool TRUE" UTF8String]);</br>
+system([@"defaults write ~/Library/Preferences/com.apple.Safari.plist com.apple.Safari.ContentPageGroupIdentifier.WebKit2AllowFileAccessFromFileURLs -bool TRUE" UTF8String]);</br>
 system([@"defaults write ~/Library/Preferences/com.apple.Safari.plist com.apple.Safari.ContentPageGroupIdentifier.WebKit2AllowUniversalAccessFromFileURLs -bool TRUE" UTF8String]);
