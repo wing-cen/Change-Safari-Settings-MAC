@@ -3,6 +3,7 @@
 最近由于工作上遇到一个问题需要修改Safari的设置程序才能正常运行，所以研究了一下怎么在代码中修改Safari的设置。</br>
 主要方法是通过使用system（）函数在命令行修改设置。</br>
 在我们电脑的~/Library/Preferences/com.apple.Safari.plist 路径下有个Safari设置文件如下</br>
+<img src="https://github.com/wing-cen/How-to-change-Mac-Safari-settings-in-code/blob/master/safari .png">
 
 
 <h3>源码</h3>
